@@ -1,0 +1,35 @@
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: repeat(4, 1fr);
+}
+button {
+    border: 1.5px solid #999;
+    line-height: 89px;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: bisque;
+}
+button.eq{
+    background-color: rgb(98, 159, 159);
+}
+.screen{
+    
+    text-align: right;
+    height: 100px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color: rgb(230 230 230);
+    
+}
+.calculator{
+    width: 35%;
+    position: relative;
+    left: 14%;
+    padding: 10px
+}

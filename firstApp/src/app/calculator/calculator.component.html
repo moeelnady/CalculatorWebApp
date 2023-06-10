@@ -1,0 +1,31 @@
+
+<div class="calculator">
+    <div class="screen">{{expression}}</div>
+     <div class="buttons">
+        <button class="clr" (click)="clearAll()">C</button>
+        <button (click)="showOn('%')">%</button>
+        <button (click)="reciprocal(expression)">1/x</button>
+        <button (click)="undo()">&#8592;</button>
+        <button (click)="square(expression)">x <sup>2</sup></button>
+        <button (click)="showOn('√')">&#8730;x</button>
+        <button (click)="showOn('.')">.</button>
+        <button (click)="showOn('/')">/</button>
+        <button (click)="showOn('7')">7</button>
+        <button (click)="showOn('8')">8</button>
+        <button (click)="showOn('9')">9</button>
+        <button (click)="showOn('*')">*</button>
+        <button (click)="showOn('4')">4</button>
+        <button (click)="showOn('5')">5</button>
+        <button (click)="showOn('6')">6</button>
+        <button (click)="showOn('-')">-</button>
+        <button (click)="showOn('1')">1</button>
+        <button (click)="showOn('2')">2</button>
+        <button (click)="showOn('3')">3</button>
+        <button (click)="showOn('+')">+</button>
+        <button (click)="showOn('(')">(</button>
+        <button (click)="showOn('0')">0</button>
+        <button (click)="showOn(')')">)</button>
+        <button class="eq" (click)="evaluate()">=</button>
+     </div>
+    
+</div>
